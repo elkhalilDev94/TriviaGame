@@ -18,15 +18,28 @@ body {
    
    }
    
-   button {
-   background-color: red;
-   color: white;
-   padding: 10px;
-   margin: 5px;
-   border: 2px solid black;
-   border-radius: 12px;
-   cursor : pointer;
-   }
+
+#choices button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+
+
+#tryAgain {
+    background: linear-gradient(to right, green , yellow);
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 8px;
+    display: none;
+}
+
    
    button:hover{
      background-color: #333;
